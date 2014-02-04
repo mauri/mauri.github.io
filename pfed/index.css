@@ -1,0 +1,24 @@
+canvas {
+    display: block;
+}
+
+.pf {
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.pf0 {
+    min-width: 96px; /* 4 * 24 */
+    background-color: green;
+}
+
+.pf1 {
+    min-width: 192px; /* 8 * 24 */
+    background-color: blue
+}
+
+.pf2 {
+    min-width: 192px; /* 8 * 24 */
+    background-color: red
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Playfield Editor</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <h1>Atari 2600 Playfield Editor</h1>
+  
+  <p>
+    In the Atari VCS 2600 the playfield represents the background, or stage, in which the gameplay happens.
+    The playfield is controlled by a 20 bit register divided in three addresses:
+    PF0 (4 bits), PF1 (8 bits), and PF2 (also 8 bits).
+  </p>
+
+  <p>
+    Set the bits of the PF0, PF1, and PF2 registers to draw the background one line at the time.
+    Race the bean by modifying these registers to draw the complete desired screen background.
+  </p>
+
+  <canvas id="playfield"></canvas>
+  
+  <div>
+    <span class="pf pf0">PF0</span>
+    <span class="pf pf1">PF1</span>
+    <span class="pf pf2">PF2</span>
+  </div>
+
+  <span id="dbg" style="visibility:hidden"></span>
+
+  <div id='export-wrap'>
+    <h1>
+      <button id='export'>🕹 Build</button>
+    </h1>
+    <textarea id='data' rows='24' cols=100></textarea>
+  </div>
+  <script data-goatcounter="https://mauri.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+
+</html>
