@@ -1,4 +1,6 @@
-# A Declaration of the Independence of Cyberspace
+#  `mauri.github.io`
+
+## A Declaration of the Independence of Cyberspace
 
 by John Perry Barlow
 
@@ -36,3 +38,9 @@ We will create a civilization of the Mind in Cyberspace. May it be more humane a
 
 Davos, Switzerland  
 February 8, 1996
+
+---
+
+- [PFED](/pfed)
+
+<script data-goatcounter="https://mauri.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

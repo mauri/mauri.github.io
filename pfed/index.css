@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+#pf0-guide {
+    float: left;
+    text-align: center;
+    color: white;
+    min-width: 160px;
+    background-color: green;
+}
+
+#pf1-guide {
+    float: left;
+    text-align: center;
+    color: white;
+    min-width: 320px;
+    background-color: blue
+}
+
+#pf2-guide {
+    float: left;
+    text-align: center;
+    color: white;
+    min-width: 320px;
+    background-color: red
+}
+
+#export-wrap {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
