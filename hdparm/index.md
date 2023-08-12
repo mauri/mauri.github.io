@@ -60,7 +60,7 @@ ENV{ID_SERIAL}!="?*", ENV{SCSI_IDENT_LUN_ATA}=="?*", ENV{ID_BUS}="ata", ENV{ID_A
 ENV{ID_SERIAL_SHORT}!="?*", ENV{SCSI_VENDOR}=="ATA", ENV{SCSI_IDENT_LUN_VENDOR}=="?*", ENV{ID_SERIAL_SHORT}="$env{SCSI_IDENT_LUN_VENDOR}"
 ```
 
-Ok, now what? Well, after a lot of back and forth with systemd, I found an old Pull Request that addresses this issue.
+Ok, now what? Well, after a lot of back and forth with systemd, I found the [old Pull Request 7594](https://github.com/systemd/systemd/pull/7594) that addresses this issue.
 It refactors how persistent storage rules are organized so they run _before_ sg3-utils had any chance to mess them up.
 
 Unfortunately, the PR is still opened after 5 years, and is unclear when it's going to land on linux distros.
