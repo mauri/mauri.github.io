@@ -1,7 +1,7 @@
 /**
  * PlayFieldEDitor @ mauri.github.io
  * 
- * pixel editor inspired by https://codepen.io/jah2488/pen/Gimzn
+ * (pixel editor inspired by https://codepen.io/jah2488/pen/Gimzn)
  * 
  * 
  */
